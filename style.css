@@ -36,6 +36,21 @@ a:active {
   background-color: transparent;
 }
 
+.squares {
+  border-color: hotpink;
+  border-style: solid;
+  border-width: 1px;
+  width: 83%;
+  height: 83%;
+  position: absolute;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: transparent;
+}
+
 ul {
   color:white;
   list-style-type: none;
@@ -67,6 +82,11 @@ ul {
     transform:scale(2,1); /* W3C */
 }
 
+.site:hover{
+  color: hotpink;
+  text-shadow: -1px -2px 4px hotpink;
+}
+
 .gateway {
   max-width: 100%;
   max-height: 100%;
@@ -80,6 +100,18 @@ ul {
 }
 
 .imgscroll img{
+  -webkit-filter: blur(6px); /* Safari 6.0 - 9.0 */
+  filter: blur(6px);
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom:2em;
+}
+
+.flyers img{
   max-width: 90%;
   max-height: 90%;
   display: block;
@@ -91,12 +123,15 @@ ul {
 
 .scroll-left {
 height: 50px;
-/* border-style: solid;
-border-color: blue;
-border-width: 1px; */
 overflow: hidden;
 position: relative;
 }
+
+.scroll-left p:hover{
+  color:hotpink;
+  text-shadow: 0px 0px 5px hotpink;
+}
+
 .scroll-left p {
 position: absolute;
 width: 100%;
@@ -104,7 +139,7 @@ height: 100%;
 margin: 0;
 color: white;
 line-height: 50px;
-text-shadow: 1px 1px 5px white;
+text-shadow: 0px 0px 5px white;
 font-size: 3em;
 text-align: center;
 /* Starting position */
