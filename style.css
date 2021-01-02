@@ -4,12 +4,14 @@ body {
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: white;
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: white;
+  text-decoration: none;
 }
 
 /* mouse over link */
@@ -19,7 +21,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: white;
 }
 
 .wrapper {
@@ -35,13 +37,16 @@ a:active {
 }
 
 ul {
+  color:white;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: right;
 }
 
 .nav{
-
+  position: absolute;
+  right:0;
 }
 
 .site{
@@ -62,7 +67,7 @@ ul {
     transform:scale(2,1); /* W3C */
 }
 
-img {
+.gateway {
   max-width: 100%;
   max-height: 100%;
   position: absolute;
@@ -72,6 +77,16 @@ img {
   left:0;
   right:0;
   transform: rotatez(-13deg);
+}
+
+.imgscroll img{
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom:2em;
 }
 
 .scroll-left {
