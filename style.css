@@ -24,6 +24,18 @@ a:active {
   color: white;
 }
 
+.staticwrapper {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: transparent;
+}
+
 .wrapper {
   width: 80%;
   height: 80%;
@@ -60,8 +72,10 @@ ul {
 }
 
 .nav{
-  position: absolute;
-  right:0;
+  position: fixed;
+  top:10%;
+  right:10%;
+  background-color: transparent;
 }
 
 .site{
@@ -109,6 +123,11 @@ ul {
   margin-right: auto;
   width: 50%;
   padding-bottom:2em;
+}
+
+.imgscroll img:hover{
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
 }
 
 .flyers img{
