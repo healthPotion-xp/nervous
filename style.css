@@ -5,6 +5,7 @@ body {
 /* unvisited link */
 a:link {
   color: white;
+  text-shadow: 0px 0px 3px white;
   text-decoration: none;
 }
 
@@ -17,25 +18,16 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: hotpink;
+  text-shadow: 0px 0px 3px hotpink;
 }
 
 /* selected link */
 a:active {
   color: white;
+  text-shadow: 0px 0px 3px white;
 }
 
-.staticwrapper {
-  width: 80%;
-  height: 80%;
-  position: absolute;
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background-color: transparent;
-}
-
+/* site wrapper */
 .wrapper {
   width: 80%;
   height: 80%;
@@ -64,6 +56,7 @@ a:active {
 }
 
 ul {
+  text-shadow: 0px 0px 3px white;
   color:white;
   list-style-type: none;
   margin: 0;
@@ -71,6 +64,7 @@ ul {
   text-align: right;
 }
 
+/* navigation links */
 .nav{
   position: fixed;
   top:10%;
@@ -78,6 +72,7 @@ ul {
   background-color: transparent;
 }
 
+/* vertical site name text*/
 .site{
   position: absolute;
   bottom: 0;
@@ -86,7 +81,7 @@ ul {
   font-size: 1em;
   letter-spacing: 0.2em;
   color: white;
-  text-shadow: -1px -2px 4px white;
+  text-shadow: 0px 0px 5px white;
   /* vertically stretches text*/
   display:inline-block;
     -webkit-transform:scale(2,1); /* Safari and Chrome */
@@ -98,9 +93,10 @@ ul {
 
 .site:hover{
   color: hotpink;
-  text-shadow: -1px -2px 4px hotpink;
+  text-shadow: 0px 0px 5px hotpink;
 }
 
+/* front page image*/
 .gateway {
   max-width: 100%;
   max-height: 100%;
@@ -113,6 +109,12 @@ ul {
   transform: rotatez(-13deg);
 }
 
+.gateway:hover{
+  -webkit-filter: blur(6px); /* Safari 6.0 - 9.0 */
+  filter: blur(6px);
+}
+
+/* design gallery images*/
 .imgscroll img{
   -webkit-filter: blur(6px); /* Safari 6.0 - 9.0 */
   filter: blur(6px);
@@ -130,6 +132,8 @@ ul {
   filter: none;
 }
 
+
+/* flyers gallery images*/
 .flyers img{
   max-width: 90%;
   max-height: 90%;
@@ -140,6 +144,8 @@ ul {
   padding-bottom:2em;
 }
 
+
+/* index page scrolling banner*/
 .scroll-left {
 height: 50px;
 overflow: hidden;
