@@ -36,8 +36,8 @@ a:active {
 
 .overlay3{
   position: fixed;
-  bottom: 5px;
-  right: 5px;
+  bottom: 10px;
+  right: 10px;
   font-size: 12px;
 }
 
