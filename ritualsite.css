@@ -22,6 +22,36 @@ a:active {
   text-decoration: none;
 }
 
+.overlay{
+  width: 30vw;
+  height: 90vh;
+  position: absolute;
+  margin:auto;
+  padding-right: 3vw;
+  top:0;
+  bottom:0;
+  right:0;
+}
+
+.overlay2{
+  width: 30vw;
+  height: 80vh;
+  position: absolute;
+  margin:auto;
+  padding-right: 3vw;
+  top:0;
+  bottom:0;
+  right:0;
+}
+
+.overlay img{
+  width:30vw;
+}
+
+.overlay2 img{
+  width:30vw;
+}
+
 .wrapper {
   width: 30vw;
   height: 90vh;
