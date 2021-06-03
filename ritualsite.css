@@ -39,12 +39,28 @@ a:active {
 
 .wrapper h3{
   color: black;
-  text-shadow: 0px 0px 1px black;
+  text-shadow: 0px 0px 3px black;
 }
 
 .wrapper p{
   color: black;
-  text-shadow: 0px 0px 1px black;
+  text-shadow: 0px 0px 3px black;
+}
+
+.wrap2 {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.wrap2 img{
+  padding: 30px;
+  filter: drop-shadow(8px 8px 15px pink)
 }
 
 .player {
