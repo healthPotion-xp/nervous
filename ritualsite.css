@@ -81,6 +81,7 @@ a:active {
 }
 
 .wrap2 img{
+  width: 60vw;
   padding: 30px;
   filter: drop-shadow(8px 8px 15px pink)
 }
